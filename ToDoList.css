@@ -1,0 +1,48 @@
+.todo-list-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #333; /* Ensure text color is set to a visible color */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333; /* Dark color for the heading */
+  }
+  
+  .checkbox-controls {
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-controls label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .todo-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .todo-table th, .todo-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    color: #333; /* Ensure table text color is set */
+  }
+  
+  .todo-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .todo-table tr.completed td {
+    text-decoration: line-through;
+    color: #888; /* Color for completed tasks */
+  }
+  
